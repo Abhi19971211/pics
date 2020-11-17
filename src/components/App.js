@@ -22,10 +22,11 @@ class App extends React.Component {
         return (<div className="ui container" style={{ marginTop: '10px' }}>
             <SearchBar onSubmit={this.onSearch} />
             <ImageList images= {this.state.images} />
+            <ImageList images= {this.state.images} />
         </div>);
     }
 
 }
 
-//hi boy
+//hi boy and girls and kids day 2
 export default App;
