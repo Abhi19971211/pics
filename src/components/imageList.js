@@ -9,7 +9,7 @@ const imageList = (props) =>{
     );
 
 
-    return(<div>{images}</div>); 
+    return(<div> Img {images}</div>); 
 };
 
 export default imageList;
